@@ -1,0 +1,64 @@
+<section class="offer_section offer3">
+			<div class="title_block">
+				<h1 class="main_title">EMS Foot Massager</h1>
+				<p class="subtitle">Електричний масажер для ніг!</p>
+			</div>
+			<!--<div class="timer_block clearfix">
+				<p>Ця пропозиція закінчиться через:</p>
+				<div class="timer clearfix">
+					<div class="timer_item">
+						<div class="text">днів</div>
+						<div class="count">00</div>
+					</div>
+					<div class="timer_item">
+						<div class="text">годин</div>
+						<div class="count hours"></div>
+					</div>
+					<div class="timer_item">
+						<div class="text">хвилин</div>
+						<div class="count minutes"></div>
+					</div>
+					<div class="timer_item">
+						<div class="text">секунд</div>
+						<div class="count seconds"></div>
+					</div>
+				</div>
+			</div>-->
+			<div class="image_block">
+				<img class="offer_image" src="images/000.jpg" alt="">
+			</div>
+			<div class="benefits_list clearfix">
+				<div class="benefit_item">100% гарантія якості</div>
+				<div class="benefit_item">Обмежена пропозиція</div>
+				<div class="benefit_item">Оплата при отриманні</div>
+			</div>
+			<div class="price_block clearfix">
+				<div class="price_item old">
+				Стара ціна:
+					<div class="value">748грн</div>
+				</div>
+				<div class="price_item new">
+				АКЦІЙНА ЦІНА:
+					<div class="value">499грн</div>
+				</div>
+			</div>
+			<form id="order_form" class="order_form" action="thank-you.php" method="post">
+			
+				<input class="field" type="text" name="name" placeholder="Введіть ваше ім'я" required="">
+				<input class="field" type="tel" name="phone" placeholder="Введіть Ваш телефон" required="">
+				<select name="comment" class="field" data-js="select-sale">
+						<option selected="" value="1">▼ Обрати кiлькiсть (шт.)</option>
+						<option value="1" data-id="1">1 шт. - 499 грн.
+</option>
+						<option value="2" data-id="2">2шт. - 948 грн. (-50 грн економія)
+</option>
+						<option value="3" data-id="3">3шт. - 1397 грн. (-100 грн економія)
+</option>
+						<option value="4" data-id="4">4шт. - 1846 грн. (-150 грн економія) </option>
+
+                    </select>
+				
+				<button class="button">Придбати зараз</button>
+			</form>
+			<div class="products_count">Знижка <b> на кожний наступний </b> -50 гривень!</div>
+		</section>
